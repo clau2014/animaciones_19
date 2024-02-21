@@ -142,6 +142,19 @@ main .card-body button {
     background-color: rgb(50, 169, 205);
     color: rgb(7, 6, 6);
 }
+
+/* Contacto */
+  
+#Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+
 footer {
     grid-area: footer;
     display: flex;
@@ -422,6 +435,4 @@ footer p {
     footer i {
         font-size: 30px;
     }
-
-
-}
+}}

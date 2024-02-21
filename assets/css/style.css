@@ -143,21 +143,6 @@ main .card-body button {
     color: rgb(7, 6, 6);
 }
 
-/* Contacto */
-  
-#Contacto form label {
-    font-weight: 700;
-    color: #776b28;
-  }
-  
-  @media (max-width: 768px) {
-    #Contacto form label {
-      font-weight: 400;
-    }
-
-    .navbar-brand{
-        width: 100px;
-      }
     
 footer {
     grid-area: footer;
@@ -185,6 +170,20 @@ footer .social-media {
     gap: 25px;
 }
 
+footer .contacto {
+    font-weight: 700;
+    color: #776b28;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+
+    .navbar-brand{
+        width: 100px;
+      }
+    
 footer i {
     font-size: 30px;
 }
@@ -294,7 +293,7 @@ footer p {
         grid-area: nav;
         display: flex;
         flex-direction: column;
-        background-color: rgb(235, 171, 34);
+        background-color: rgb(167, 128, 46);
         justify-content: flex-start;
         gap: 30px;
         align-items: center;
@@ -402,7 +401,7 @@ footer p {
     }
 
     nav .logo:hover {
-        transform: scale(1.0);
+        transform: scale(1.2);
         transition: all 0.5s ease-in;
         background-color: rgb(168, 127, 38);
         color: rgb(254, 255, 254);

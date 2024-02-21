@@ -40,7 +40,7 @@
   nav .logo:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in;
-    background-color: rgb(95, 20, 110);
+    background-color: rgb(4, 141, 196);
     color: rgb(254, 255, 254);
     border-radius: 5px;
   }
@@ -112,12 +112,12 @@ main .card figure img{
 main .card-body {
     padding: 10px;
     width: 100%;
-    background-color: rgb(74, 80, 78);
+    background-color: white;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px; 
-    font-family: "Fredoka", sans-serif;
+    font-family: Helvetica", Arial, Helvetica, sans-serif;
 }
 
 main .card-body h3 {
@@ -148,7 +148,7 @@ footer {
     align-items: center;
     background-color: #f7f7f2;
     color: rgb(0, 0, 0);
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -321,7 +321,7 @@ footer p {
       }
 
     footer {
-        background-color: rgb(61, 65, 64);
+        background-color: white;
         color: rgb(237, 253, 4);
         display: flex;
     }
@@ -386,7 +386,7 @@ footer p {
     nav .logo:hover {
         transform: scale(1.1);
         transition: all 0.5s ease-in;
-        background-color: rgb(95, 20, 110);
+        background-color: rgb(6, 115, 148);
         color: rgb(254, 255, 254);
         border-radius: 5px;
         padding: 5px;
@@ -414,7 +414,7 @@ footer p {
         font-size: 15px;
     }
 
-    footer .redes {
+    footer .redes-soc {
         display: flex;
     }
 

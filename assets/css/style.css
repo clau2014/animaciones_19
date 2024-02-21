@@ -24,7 +24,7 @@ body {
     grid-area: nav;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(246, 247, 241);
+    background-color: white;
     align-items: center;
     padding: 10px;
   }
@@ -41,8 +41,8 @@ body {
   nav .logo:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in;
-    background-color: rgb(4, 141, 196);
-    color: rgb(254, 255, 254);
+    background-color: rgb(68, 160, 235);
+    color: black;
     border-radius: 5px;
   }
 
@@ -67,7 +67,7 @@ nav ul li {
   }
 
   li:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
   }
   nav li a {
     color: black;
@@ -81,7 +81,7 @@ nav ul li {
 
   body main {
     grid-area: main;
-    background-color: rgb(202, 203, 204);
+    background-color: white;
     display: flex;
     flex-direction: column;
     overflow-y: auto;

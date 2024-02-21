@@ -98,7 +98,7 @@ main .card {
 }
 
 .card figure img:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: all 0.5s ease-in;
 }
 
@@ -123,10 +123,12 @@ main .card-body {
 
 main .card-body h3 {
     padding: 5px;
+    background-color: black;
 }
 
 main .card-body p {
     padding: 5px;
+    background-color: black;
 }
 
 main .card-body button {

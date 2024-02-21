@@ -59,8 +59,8 @@ body {
 }
 
 nav ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 3px;
     padding-right: 3px;
     border-radius: 5px;
@@ -98,14 +98,14 @@ main .card {
 }
 
 .card figure img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.5s ease-in;
 }
 
 main .card figure img{
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     object-fit: cover;
     height: 100%;
 }
@@ -116,8 +116,8 @@ main .card-body {
     background-color: white;
     color: black;
     margin-bottom: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
     font-family: Helvetica", Arial, Helvetica, sans-serif;
 }
 
@@ -135,7 +135,7 @@ main .card-body button {
     font-size: larger;
     color: black;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-body button:hover {
@@ -143,7 +143,50 @@ main .card-body button {
     color: rgb(7, 6, 6);
 }
 
-    
+#Contacto {
+    background-color: #f8f9fa; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Contacto h2 {
+    color: #495057; 
+}
+
+#Contacto p {
+    color: #6c757d; /
+}
+
+
+#Contacto input,
+#Contacto textarea {
+    border-radius: 5px; 
+    border: 1px solid #ced4da;
+    padding: 10px; 
+}
+
+#Contacto label {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+#Contacto button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+#Contacto button:hover {
+    background-color: #0056b3; 
+} 
+
 footer {
     grid-area: footer;
     display: flex;
@@ -170,20 +213,6 @@ footer .social-media {
     gap: 25px;
 }
 
-footer .contacto {
-    font-weight: 700;
-    color: #776b28;
-  }
-  
-  @media (max-width: 768px) {
-    #Contacto form label {
-      font-weight: 400;
-    }
-
-    .navbar-brand{
-        width: 100px;
-      }
-    
 footer i {
     font-size: 30px;
 }
@@ -193,7 +222,7 @@ footer .fa-square-facebook {
 }
 footer .fa-square-facebook:hover {
     color: rgb(4, 4, 114);
-    transform: scale(1.5);
+    transform: scale(1.8);
     transition: all 0.5s ease-in;
 }
 
@@ -201,8 +230,8 @@ footer .fa-square-instagram {
     color: rgb(0, 0, 0);
 }
 footer .fa-square-instagram:hover {
-    color: rgb(100, 5, 76);
-    transform: scale(1.5);
+    color: rgb(187, 20, 145);
+    transform: scale(1.8);
     transition: all 0.5s ease-in;
 }
 
@@ -211,7 +240,7 @@ footer .fa-square-youtube {
 }
 footer .fa-square-youtube:hover {
     color: rgb(233, 10, 10);
-    transform: scale(1.5);
+    transform: scale(1.8);
     transition: all 0.5s ease-in;
 }
 

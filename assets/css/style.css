@@ -155,6 +155,10 @@ main .card-body button {
       font-weight: 400;
     }
 
+    .navbar-brand{
+        width: 100px;
+      }
+    
 footer {
     grid-area: footer;
     display: flex;

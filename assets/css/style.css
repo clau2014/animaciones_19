@@ -41,7 +41,7 @@ body {
   nav .logo:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in;
-    background-color: rgb(68, 160, 235);
+    background-color: rgb(235, 177, 68);
     color: black;
     border-radius: 5px;
   }
@@ -139,7 +139,7 @@ main .card-body button {
 }
 
 .card-body button:hover {
-    background-color: rgb(50, 169, 205);
+    background-color: rgb(205, 164, 50);
     color: rgb(7, 6, 6);
 }
 
@@ -290,7 +290,7 @@ footer p {
         grid-area: nav;
         display: flex;
         flex-direction: column;
-        background-color: rgb(18, 184, 235);
+        background-color: rgb(235, 171, 34);
         justify-content: flex-start;
         gap: 30px;
         align-items: center;
@@ -336,7 +336,7 @@ footer p {
 
     footer {
         background-color: white;
-        color: rgb(4, 162, 253);
+        color: rgb(179, 138, 25);
         display: flex;
     }
 
@@ -400,7 +400,7 @@ footer p {
     nav .logo:hover {
         transform: scale(1.0);
         transition: all 0.5s ease-in;
-        background-color: rgb(6, 115, 148);
+        background-color: rgb(168, 127, 38);
         color: rgb(254, 255, 254);
         border-radius: 5px;
         padding: 5px;
